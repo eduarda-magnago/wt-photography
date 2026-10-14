@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-lato);
+  --font-heading: var(--font-inter);
+  --font-hero: var(--font-cormorant);
+
+  --color-ink: #333333;
+  --color-sand: #ededeb;
+  --color-paper: #fafafa;
+  --color-blush: #f4e6dc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
