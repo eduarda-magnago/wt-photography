@@ -8,7 +8,7 @@ const testimonials = [
     name: "Anna C.",
     image: "/img/testimonial.png",
     quote:
-      "I had a very amazing contracting WP for my wedding. They are super kind team and I always felt I could trust 100% in their work. When I received the pictures I was more surprised than I imagined, really good quality! No regrets.",
+      "I had a very amazing contracting WT for my wedding. They are super kind team and I always felt I could trust 100% in their work. When I received the pictures I was more surprised than I imagined, really good quality! No regrets.",
   },
 ];
 

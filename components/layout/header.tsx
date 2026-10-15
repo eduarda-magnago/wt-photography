@@ -9,7 +9,7 @@ const navLinks = [
   { label: "About me", href: "/#about" },
   { label: "Gallery", href: "/#gallery" },
   { label: "Testimonials", href: "/#testimonials" },
-  { label: "Contact Us", href: "/contact" },
+  { label: "Contact Us", href: "/contact#contact-form" },
 ];
 
 export default function Header() {

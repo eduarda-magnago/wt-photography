@@ -10,9 +10,9 @@ const photos = [
 export default function Details() {
   return (
     <section id="gallery" className="bg-paper px-6 pb-24 md:px-14 md:pb-32">
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-w-[1000px]">
         <div className="flex items-baseline justify-between">
-          <h2 className="font-heading text-xl">
+          <h2 className="font-heading text-[20px]">
             Always thinking of every detail
           </h2>
           <Link href="/#gallery" className="font-heading text-sm font-semibold">

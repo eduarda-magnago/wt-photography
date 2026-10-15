@@ -17,7 +17,7 @@ export default function Hero({
   ctaHref = "/#gallery",
 }: HeroProps) {
   return (
-    <section className="relative flex h-[70vh] min-h-[460px] items-center justify-center overflow-hidden">
+    <section className="relative flex h-[70vh] min-h-[715px] items-center justify-center overflow-hidden">
       <Image
         src="/img/hero.png"
         alt=""
@@ -26,10 +26,10 @@ export default function Hero({
         sizes="100vw"
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-black/20" />
+      <div className="absolute inset-0 bg-black/5" />
       <div className="relative z-10 flex max-w-3xl flex-col items-center px-6 text-center text-white">
         <p className="mb-4 text-sm">{eyebrow}</p>
-        <h1 className="font-hero text-5xl leading-[0.9] md:text-7xl">
+        <h1 className="font-hero text-5xl capitalize leading-[0.7] md:text-7xl">
           {title}
         </h1>
         <Link
