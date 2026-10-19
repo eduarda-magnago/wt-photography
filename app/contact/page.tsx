@@ -6,7 +6,7 @@ export default function Contact() {
     <>
       <Hero
         eyebrow="Get in touch"
-        title="Let’s create something beautiful"
+        title={"Let’s create\nsomething\nbeautiful"}
         image="/img/hero-bg.jpg"
       />
       <section

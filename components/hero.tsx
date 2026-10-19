@@ -13,7 +13,7 @@ export default function Hero({
   eyebrow,
   title,
   image,
-  ctaLabel = "Explore our gallery",
+  ctaLabel = "Explore the gallery",
   ctaHref = "/#gallery",
 }: HeroProps) {
   return (
@@ -29,7 +29,7 @@ export default function Hero({
       <div className="absolute inset-0 bg-black/5" />
       <div className="relative z-10 flex max-w-3xl flex-col items-center px-6 text-center text-white">
         <p className="mb-4 text-sm">{eyebrow}</p>
-        <h1 className="font-hero text-5xl capitalize leading-[0.7] md:text-7xl">
+        <h1 className="font-hero whitespace-pre-line text-5xl capitalize leading-[0.7] md:text-7xl">
           {title}
         </h1>
         <Link

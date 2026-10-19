@@ -3,33 +3,22 @@ import Image from "next/image";
 export default function About() {
   return (
     <section id="about" className="bg-paper px-6 py-24 md:px-14 md:py-32">
-      <div className="mx-auto grid max-w-[1000px] items-center gap-12 md:grid-cols-[435fr_500fr] md:gap-x-12 xl:gap-x-[120px]">
+      <div className="mx-auto grid max-w-[950px] items-center gap-12 md:grid-cols-[435fr_500fr] md:gap-x-12 xl:gap-x-[120px]">
         <div>
           <h2 className="font-heading text-[20px]">Meet the photographer</h2>
 
-          <div className="mt-6 space-y-7 text-justify text-base leading-6">
+          <div className="mt-6 space-y-7 text-justify text-[16px] leading-6">
             <p>
-              Hi, I’m Emily Rose. I’m a wedding photographer based in
-              Australia, passionate about telling love stories through my
-              lens. What began as a love for capturing small, quiet moments has
-              grown into a career built on trust, emotion, and the art of
-              honest storytelling.
+              Hi, I’m Emily Rose. I’m a wedding photographer based in Melbourne, passionate about telling love stories through my lens. What began as a fondness for capturing small, quiet moments has grown into a career built on trust, emotion, and the art of honest storytelling.
             </p>
             <p>
-              With over 6 years of experience, I specialize in natural,
-              documentary-style photography that focuses on genuine connection, not stiff poses. I believe the best photos are the ones where
-              you forget the camera is even there.
+              With over 6 years of experience, I specialize in natural, documentary-style photography that focuses on real connection, not stiff poses. I believe the best photos are the ones where you forget the camera is even there.
             </p>
             <p>
-              Beyond photography, I’m a calm presence on a whirlwind day. From
-              fixing veils to finding the best light, I’m there to make your
-              experience effortless and enjoyable. My clients often say I felt
-              like a friend with a camera, and that’s the greatest compliment
-              I could ask for.
+              Beyond photography, I’m a calm presence on a whirlwind day. From fixing veils to finding the softest light, I’m here to make your experience effortless and enjoyable. My clients often say I feel like a friend with a camera, and that’s the greatest compliment I could ask for.
             </p>
             <p>
-              Let’s create something timeless together — photos you’ll look at
-              30 years from now and still feel everything.
+              Let’s create something lasting together, with photos you’ll look at 30 years from now and still feel everything.
             </p>
           </div>
         </div>

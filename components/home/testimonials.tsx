@@ -3,14 +3,14 @@
 import { useState } from "react";
 import Image from "next/image";
 
-const testimonials = [
-  {
-    name: "Anna C.",
-    image: "/img/testimonial.png",
-    quote:
-      "I had a very amazing contracting WT for my wedding. They are super kind team and I always felt I could trust 100% in their work. When I received the pictures I was more surprised than I imagined, really good quality! No regrets.",
-  },
-];
+const baseTestimonial = {
+  name: "Anna C.",
+  image: "/img/testimonial.png",
+  quote:
+    "I had an amazing experience hiring Emily for my wedding. She is super kind and I always felt I could trust her work 100%. When I received the pictures I was even more impressed than I expected, really good quality! No regrets.",
+};
+
+const testimonials = Array.from({ length: 5 }, () => baseTestimonial);
 
 export default function Testimonials() {
   const [index, setIndex] = useState(0);

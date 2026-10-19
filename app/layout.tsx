@@ -22,7 +22,7 @@ const cormorant = Cormorant_SC({
 });
 
 export const metadata: Metadata = {
-  title: "WT Timeless Photography",
+  title: "Timeless Wedding Photography",
   description: "Timeless wedding photography",
 };
 

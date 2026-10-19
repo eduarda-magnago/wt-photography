@@ -6,7 +6,7 @@ const exploreLinks = [
   { label: "About", href: "/#about" },
   { label: "Gallery", href: "/#gallery" },
   { label: "Testimonials", href: "/#testimonials" },
-  { label: "Contact Us", href: "/contact#contact-form" },
+  { label: "Contact", href: "/contact#contact-form" },
 ];
 
 const headingClass = "mb-6 text-xs uppercase tracking-widest";
@@ -14,7 +14,7 @@ const headingClass = "mb-6 text-xs uppercase tracking-widest";
 export default function Footer() {
   return (
     <footer>
-      <div className="bg-ink px-6 py-12 text-sm text-white md:px-30 md:py-14">
+      <div className="bg-ink px-6 py-12 text-sm text-white md:px-52 md:py-14">
         <div className="mx-auto max-w-[1600px]">
           <div className="grid gap-12 md:grid-cols-[1fr_auto_auto] md:gap-24">
             <div>
@@ -25,8 +25,7 @@ export default function Footer() {
                 height={110}
               />
               <p className="mt-6 max-w-xs leading-relaxed md:mt-8">
-                With a natural and artistic approach, we create photographs
-                that reflect everything. Based in Melbourne, available wherever you&apos;d like to say yes.
+                With a natural and artistic approach, I create photographs that reflect who you are. Based in Melbourne, available wherever you’d like to say yes.
               </p>
               <ul className="mt-6 flex items-center gap-3">
                 <li>

@@ -20,20 +20,12 @@ export default function Details() {
           </Link>
         </div>
 
-        <div className="mt-10 space-y-6 text-sm leading-relaxed">
+        <div className="mt-10 space-y-6 text-[16px] leading-relaxed text-justify">
           <p>
-            From the quiet tear before the ceremony to the golden light hitting
-            your bouquet just right — I believe the beauty is in the details. I
-            don’t just take pictures; I observe, anticipate, and capture the
-            moments you didn’t even realize were happening.
+            From a quiet tear before the ceremony to the golden light falling on your bouquet, I believe the beauty is in what’s easy to miss. I don’t just take pictures; I observe, anticipate, and capture what you didn’t even realize was happening.
           </p>
           <p>
-            Whether it’s making sure your dress is perfectly fluffed, guiding
-            you into the best lighting, or noticing when your grandma reaches
-            for your hand — my job goes far beyond the shutter. I’m there to
-            preserve every fleeting detail that makes your day uniquely yours.
-            Because when it’s all over, it’s the little things that stay with
-            you the longest.
+            Whether it’s making sure your dress is perfectly fluffed, calming your nerves before the aisle, or catching the stolen glance between you and your partner, my job goes far beyond the shutter. I’m there to keep everything that makes your day uniquely yours. Because when it’s all over, it’s the little things that stay with you the longest.
           </p>
         </div>
 
